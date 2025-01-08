@@ -20,14 +20,14 @@ body, html {
 
 .title {
   text-align: center; 
-  color: #fd7a12;
+  color: #914307;
   font-weight: bolder;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .hasil {
   text-align: center; 
-  color: #fd7a12;
+  color: #f3ae7a;
   font-weight: bolder;
   font-size: 70px;
   margin-top: 0; /* Menetapkan margin atas menjadi 0 untuk menghilangkan gap */
