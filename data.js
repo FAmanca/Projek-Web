@@ -64,6 +64,16 @@ const data = [
     deskripsi:
       "Sosok Khodam Rizal Kalimantan menguasai air dan kegelapan malam dengan kecepatan dan ketangkasan yang ahli",
   },
+  {
+    khodam: "Budi racing",
+    deskripsi:
+      "Sosok Khodam budi racing sungguh cepat mengalahkan nenek turbo",
+  },
+  {
+    khodam: "Budi siregar",
+    deskripsi:
+      "Sosok Khodam budi siregar bisa mengsummon kapal laut kapan pun ",
+  },
 ];
 
 window.data = data;
