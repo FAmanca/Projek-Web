@@ -21,7 +21,7 @@ body, html {
 .title {
   text-align: center; 
   color: #914307;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 40px;
 }
 
@@ -30,8 +30,7 @@ body, html {
   color: #f3ae7a;
   font-weight: bolder;
   font-size: 70px;
-  margin-top: 0; /* Menetapkan margin atas menjadi 0 untuk menghilangkan gap */
-  margin-bottom: 0;
+  margin-top: 0;
 }
 
 input[type="text"] {
@@ -39,16 +38,16 @@ input[type="text"] {
   font-size: 16px;
   border: 2px solid #ccc;
   border-radius: 5px;
-  width: 100%; /* Mengatur lebar input */
-  max-width: 400px; /* Mengatur lebar maksimal input */
-  box-sizing: border-box; /* Memastikan padding tidak menambah lebar total elemen */
-  margin-bottom: 10px; /* Menambahkan jarak di bawah input jika diperlukan elemen tambahan */
-  transition: border-color 0.3s; /* Animasi untuk perubahan warna border */
+  width: 100%;
+  max-width: 400px;
+  box-sizing: border-box; 
+  margin-bottom: 10px;
+  transition: border-color 0.3s;
 }
 
 input[type="text"]:focus {
-  border-color: #868282; /* Warna border saat input dalam keadaan fokus */
-  outline: none; /* Menghilangkan outline bawaan browser */
+  border-color: #868282;
+  outline: none; 
 }
 
 button {
@@ -59,20 +58,20 @@ button {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s;
-  margin-top: 10px; /* Menambahkan jarak di atas tombol */
+  margin-top: 10px; 
   width: 40%;
 }
 
 button:hover {
-  background-color: #fd7a12; /* Warna saat tombol di-hover */
+  background-color: #fd7a12;
 }
 
 button:active {
-  transform: scale(0.95); /* Efek saat tombol ditekan */
+  transform: scale(0.95);
 }
 
 button:focus {
-  outline: none; /* Menghilangkan outline bawaan browser */
+  outline: none; 
 }
 
 h2 {
